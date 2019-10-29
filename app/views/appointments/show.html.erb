@@ -32,14 +32,22 @@
       <th>Zip code</th>
     </tr>
     <tr>
-    <% @appointments.each do |appointment| %>
+    <%# <% @appointments.offices.each do |office| %>
       <tr>
-]        <td><%= appointment.visit %></td>
+      <td><%= office.street_addres %></td>
 
       </tr>
     <% end %>
     </tr>
 </table>
 
+<div class="container">        
+    <h3>
+      <strong>Current Appointment</strong>
+    </h3> 
+
+        
+ 
+</div>  
 <%= link_to 'Edit', edit_appointment_path(@appointment) %> |
 <%= link_to 'Back', appointments_path %>
