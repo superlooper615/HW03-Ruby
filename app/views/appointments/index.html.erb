@@ -16,8 +16,8 @@
     <% @appointments.each do |appointment| %>
       <tr>
         <td><%= appointment.visit %></td>
-        <td><%= appointment.Physician_id %></td>
-        <td><%= appointment.Patient_id %></td>
+        <td><%= appointment.Physician.name %></td>
+        <td><%= appointment.Patient.name %></td>
         <td><%= link_to 'Show', appointment %></td>
         <td><%= link_to 'Edit', edit_appointment_path(appointment) %></td>
         <td><%= link_to 'Destroy', appointment, method: :delete, data: { confirm: 'Are you sure?' } %></td>

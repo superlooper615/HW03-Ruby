@@ -17,13 +17,13 @@
   </div>
 
   <div class="field">
-    <%= form.label :Physician_id %>
-    <%= form.text_field :Physician_id %>
+    <%= form.label :Physician_id%>
+    <%= form.collection_select :Physician_id, Physician.all, :id, :name %>
   </div>
-
+ 
   <div class="field">
-    <%= form.label :Patient_id %>
-    <%= form.text_field :Patient_id %>
+    <%= form.label :Patient_id%>
+    <%= form.collection_select :Patient_id, Patient.all, :id, :name %>
   </div>
 
   <div class="actions">
