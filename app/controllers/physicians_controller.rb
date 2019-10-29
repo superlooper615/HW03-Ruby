@@ -10,6 +10,7 @@ class PhysiciansController < ApplicationController
   # GET /physicians/1
   # GET /physicians/1.json
   def show
+    @physicians = Physician.all
   end
 
   # GET /physicians/new

@@ -6,4 +6,7 @@ class Physician < ApplicationRecord
     accepts_nested_attributes_for :offices, reject_if: :all_blank, allow_destroy: true
 
     has_many :appointments
+    validates :name, presence: true
+    validates :specialty, presence: true
+
 end
