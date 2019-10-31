@@ -8,17 +8,17 @@
 
 
 table.blueTable {
-    border: 1px solid #1C6EA4;
+    border: 1px solid #D1E4F5;
     background-color: #EEEEEE;
     width: 100%;
     text-align: left;
     border-collapse: collapse;
 }
 
-table.blueTable tbody tr:nth-child(odd) {background: #1C6EA4}
+table.blueTable tbody tr:nth-child(odd) {background: #D1E4F5}
 
 table.blueTable th, table.blueTable td {
-    border: 1px solid black;
+    border: 1px solid grey;
     
 }
 
