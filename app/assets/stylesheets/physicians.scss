@@ -19,10 +19,10 @@ table.blueTable {
     border-collapse: collapse;
 }
 
-tr:nth-child(odd) {background: #1C6EA4}
+tbody tr:nth-child(odd) {background: #1C6EA4}
 
 
-table, th, td {
+th, td {
     border: 1px solid black;
     
 }
