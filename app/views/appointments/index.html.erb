@@ -15,7 +15,7 @@
   <tbody>
     <% @appointments.each do |appointment| %>
       <tr>
-        <td><%= appointment.visit %></td>
+        <td><%= appointment.visit.to_formatted_s(:long_ordinal) %></td>
         <td><%= appointment.Physician.name %></td>
         <td><%= appointment.Patient.name %></td>
         <td><%= link_to 'Show', appointment %></td>
