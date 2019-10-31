@@ -6,11 +6,7 @@
     padding: 10px;
 }
 
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
+
 table.blueTable {
     border: 1px solid #1C6EA4;
     background-color: #EEEEEE;
@@ -19,29 +15,14 @@ table.blueTable {
     border-collapse: collapse;
 }
 
-tbody tr:nth-child(odd) {background: #1C6EA4}
+table.blueTable tbody tr:nth-child(odd) {background: #1C6EA4}
 
-
-th, td {
+table.blueTable th, table.blueTable td {
     border: 1px solid black;
     
 }
 
-body {
-    background-color: #fff;
-    color: #333;
-    margin: 33px;
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-}
 
-#index {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
-    border-color: grey;
-}
 
 h2 {
     display: block;
