@@ -18,3 +18,28 @@
     background-color: lightgray;
     border: 1px solid black;
 }
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 33px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+
+td {
+    padding: 0 5px 7px;
+}

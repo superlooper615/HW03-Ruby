@@ -5,49 +5,17 @@
   <%= @appointment.visit %>
 </p>
 
-<h2>
-  <%# <strong>Physician:</strong> %>
+<p>
+  <strong>Physician:</strong>
   <%= @appointment.Physician.name %>
-</h2>
+</p>
 
-<h3>
-  <strong>Specialty:</strong>
-  <%= @appointment.Physician.specialty %>
-</h3>
-
-
-
-<div class="container">        
-    <h3>
-      <strong>Office Locations</strong>
-    </h3> 
-
-        
+<p>
+  <strong>Patient:</strong>
+  <%= @appointment.Patient.name %>
+</p>
+       
  
-</div>  
 
-<table>
-    <tr>
-      <th>Street Address</th>
-      <th>Zip code</th>
-    </tr>
-    <tr>
-    <%# <% @appointments.offices.each do |office| %>
-      <tr>
-      <td><%= office.street_addres %></td>
-
-      </tr>
-    <% end %>
-    </tr>
-</table>
-
-<div class="container">        
-    <h3>
-      <strong>Current Appointment</strong>
-    </h3> 
-
-        
- 
-</div>  
 <%= link_to 'Edit', edit_appointment_path(@appointment) %> |
 <%= link_to 'Back', appointments_path %>
